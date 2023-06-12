@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+*, *::before, *::after {margin:0; padding:0; box-sizing:border-box;}
+body {color:#333; font-family:"KCCChassam", "NanumSquare"; line-height:1.6;}
+ul, ol {list-style:none;}
+
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrap {overflow:hidden; position:relative; width:100%; height:100%; background:url(../img/bg.jpg) repeat left top / 160px auto;}
+.main {width:860px; height:100%; margin:0 auto; padding:100px 20px 50px;}
+
+.top__tit {margin:0 auto; font-size:40px; font-weight:400; writing-mode:vertical-lr;}
+.top__tit span {display:block}
+.top__tit span + span {margin-top:50px;}
+.top__pic {width:619px; height:658px; margin:50px auto 0; background:url(../img/main_dohyun.png) no-repeat left top / 100% auto;}
+
+.txt {margin-top:20px; font-size:36px; text-align:center;}
+.txt__name {margin-top:30px;}
+.txt__name span {display:inline-block;}
+.txt__name span + span {margin-left:20px;}
+
+.coming {margin-top:100px; text-align:center;}
+.coming::before {content:""; display:block; width:1px; height:100px; margin:0 auto; background:#333;}
+.coming__tit {margin-top:30px; font-size:38px;}
+.coming__date {margin-top:20px; font-size:36px;}
+.coming__address {display:inline-block; margin-top:10px; padding:20px 25px; background:#b2ffe6; font-size:36px; border-radius:35px; line-height:1;}
+.coming__desc-list {margin-top:30px; font-size:34px;}
+.coming__desc-list li span {display:inline-block; position:relative; padding-left:15px;}
+.coming__desc-list li span::before {content:""; position:absolute; left:0; top:50%; width:5px; height:5px; background:#333; border-radius:100%; transform:translateY(-50%);}
+.coming__map {margin-top:30px; width:100%; height:600px;}
+
+.footer {display:flex; height:70px; background:url(../img/footer_bg.jpg) repeat left top / 160px 160px; font-size:16px; text-align:center; align-items:center; justify-content:center;}
+
+@media (max-width:860px){
+    .wrap {overflow:hidden; position:relative; width:100%; height:100%; background:url(../img/bg.jpg) repeat left top / 18.6047vw auto;}
+    .main {width:100.0000vw; height:100%; margin:0 auto; padding:11.6279vw 2.3256vw 5.8140vw;}
+
+    .top__tit {margin:0 auto; font-size:4.6512vw; font-weight:400; writing-mode:vertical-lr;}
+    .top__tit span {display:block}
+    .top__tit span + span {margin-top:5.8140vw;}
+    .top__pic {width:71.9767vw; height:76.5116vw; margin:5.8140vw auto 0; background:url(../img/main_dohyun.png) no-repeat left top / 100% auto;}
+
+    .txt {margin-top:2.3256vw; font-size:4.1860vw; text-align:center;}
+    .txt__name {margin-top:3.4884vw;}
+    .txt__name span {display:inline-block;}
+    .txt__name span + span {margin-left:2.3256vw;}
+
+    .coming {margin-top:11.6279vw; text-align:center;}
+    .coming::before {content:""; display:block; width:0.1163vw; height:11.6279vw; margin:0 auto; background:#333;}
+    .coming__tit {margin-top:3.4884vw; font-size:4.4186vw;}
+    .coming__date {margin-top:2.3256vw; font-size:4.1860vw;}
+    .coming__address {display:inline-block; margin-top:1.1628vw; padding:2.3256vw 2.9070vw; background:#b2ffe6; font-size:4.1860vw; border-radius:4.0698vw; line-height:1;}
+    .coming__desc-list {margin-top:3.4884vw; font-size:3.9535vw;}
+    .coming__desc-list li span {display:inline-block; position:relative; padding-left:1.7442vw;}
+    .coming__desc-list li span::before {content:""; position:absolute; left:0; top:50%; width:0.5814vw; height:0.5814vw; background:#333; border-radius:100%; transform:translateY(-50%);}
+    .coming__map {margin-top:3.4884vw; width:100%; height:69.7674vw;}
+
+    .footer {display:flex; height:8.1395vw; background:url(../img/footer_bg.jpg) repeat left top / 18.6047vw 18.6047vw; font-size:1.8605vw; text-align:center; align-items:center; justify-content:center;}
+}
