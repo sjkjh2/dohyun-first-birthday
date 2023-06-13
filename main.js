@@ -115,15 +115,15 @@ gsap.to(".history__pic07", {
 });
 
 
-var tlSplitGreat = gsap.timeline({onComplete: () => {SplitGreat.revert()}}), 
-    SplitGreat = new SplitText(".top__tit", {type:"words,chars"}), 
-    chars = SplitGreat.chars;
+// var tlSplitGreat = gsap.timeline({onComplete: () => {SplitGreat.revert()}}), 
+//     SplitGreat = new SplitText(".top__tit", {type:"words,chars"}), 
+//     chars = SplitGreat.chars;
 
 
-tlSplitGreat.from(chars, {
-    duration: 0.8,
-    opacity:0,
-    y:10,
-    ease:"circ.out",
-    stagger: 0.1,
-}, "+=0");
+// tlSplitGreat.from(chars, {
+//     duration: 0.8,
+//     opacity:0,
+//     y:10,
+//     ease:"circ.out",
+//     stagger: 0.1,
+// }, "+=0");
