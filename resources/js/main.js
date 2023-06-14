@@ -200,7 +200,7 @@ gsap.to(".coming__map", {
     ease: "none",
     scrollTrigger: {
         trigger: ".top__txt__name",
-        scrub: 4.1
+        scrub: 3.7
     }, 
 });
 
