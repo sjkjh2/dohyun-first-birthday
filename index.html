@@ -11,10 +11,8 @@
     <title>도현이의 첫 생일 잔치에 초대합니다!</title>
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/main.css">
-    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js' defer></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js' defer></script>
-    <!-- <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js' defer></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
     <script src="./resources/js/main.js" defer></script>
 </head>
 <body>
@@ -22,19 +20,30 @@
         <h1 class="blind">도현이의 첫 생일 초대장</h1>
         <main class="main">
             <section class="top">
-                <h2 class="top__tit"><span>도현이의 첫 생일에 </span> <span>여러분을 초대합니다.</span></h2>
+                <h2 class="top__tit"><span class="top__tit__txt01">도현이의 첫 생일에 </span> <span class="top__tit__txt02">여러분을 초대합니다.</span></h2>
                 <div class="top__pic"></div>
                 <div class="top__txt">
-                    <p class="top__txt__desc">1년 동안 건강하게 자라준 도현이가 <br>첫 번째 생일을 맞이합니다. <br>도현이가 더 밝고 건강하게 자랄 수 있도록 <br>함께 축하 부탁드립니다.</p>
+                    <p class="top__txt__desc">
+                        <span class="top__txt__desc01">1년 동안 건강하게 자라준 도현이가 </span>
+                        <span class="top__txt__desc02">첫 번째 생일을 맞이합니다. </span>
+                        <span class="top__txt__desc03">도현이가 더 밝고 건강하게 자랄 수 있도록 </span>
+                        <span class="top__txt__desc04">함께 축하 부탁드립니다.</span>
+                    </p>
                     <div class="top__txt__name">
                         <span>아빠 <b>김재환</b></span>
                         <span>엄마 <b>강세미</b></span>
                     </div>
                 </div>
+                <div class="obj obj01"><img src="./resources/img/obj01.png" alt=""></div>
+                <div class="obj obj02"><img src="./resources/img/obj02.png" alt=""></div>
+                <div class="obj obj03"><img src="./resources/img/obj03.png" alt=""></div>
+                <div class="obj obj04"><img src="./resources/img/obj04.png" alt=""></div>
             </section>
             <section class="coming box">
-                <h2 class="coming__tit tit">오시는 길</h2>
-                <p class="coming__date">2023. 7. 8(토) 오후 5:00 | 더 가든키친 뷔페</p>
+                <div class="coming-line box__vertical-line"></div>
+                <h2 class="coming__tit box__tit">오시는 길</h2>
+                <p class="coming__date">2023. 7. 8(토) 오후 5:00 | 더 가든키친 뷔페 <br></p>
+                <small class="coming__tip">(더 리버사이드 호텔 1층에 있어요!)</small>
                 <p class="coming__address">서울특별시 서초구 강남대로107길 6 1층</p>
                 <ul class="coming__desc-list">
                     <li><span>예약자: 김재환</span></li>
@@ -44,69 +53,79 @@
                 </ul>
                 <div id="map" class="coming__map"></div>
                 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7283db1a76e87c07dc7f2db48819c29f"></script>
+                <div class="obj obj05"><img src="./resources/img/obj05.png" alt=""></div>
+                <div class="obj obj06"><img src="./resources/img/obj06.png" alt=""></div>
             </section>
-            <section class="history box ">
-                <h2 class="history__tit tit">도현이 사진첩</h2>
-                <p class="history__desc">사랑스러운 도현이의 사진을 같이 </p>
+            <section class="history box">
+                <div class="history-line box__vertical-line"></div>
+                <h2 class="history__tit box__tit">도현이 사진첩</h2>
+                <p class="history__desc">너무나 빠르게 성장한 도현이의 모습</p>
                 <div class="history__pic-box history__pic-box01">
                     <figure class="history__pic01">
-                        <img src="./resources/img/pic01.jpg" alt=""> <figcaption class="history__pic__caption">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic01.jpg" alt=""> <figcaption class="history__pic__caption">#1. 드디어 튼튼이 도현이 탄생!</figcaption>
                     </figure>
                 </div>
                 <div class="history__pic-box history__pic-box02">
                     <figure class="history__pic02">
-                        <img src="./resources/img/pic02.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic02.jpg" alt=""> <figcaption class="">#02. 우유도 잘먹고!</figcaption>
                     </figure>
+                    <div class="obj obj07"><img src="./resources/img/obj07.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box03">
                     <figure class="history__pic03">
-                        <img src="./resources/img/pic03.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic03.jpg" alt=""> <figcaption class="">#03. 잠도 잘 자고~</figcaption>
                     </figure>
+                    <div class="obj obj08"><img src="./resources/img/obj08.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box04">
                     <figure class="history__pic04">
-                        <img src="./resources/img/pic04.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic04.jpg" alt=""> <figcaption class="">#04. 엄마 아빠와 함께 잘 놀아주어,</figcaption>
                     </figure>
+                    <div class="obj obj09"><img src="./resources/img/obj09.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box05">
                     <figure class="history__pic05">
-                        <img src="./resources/img/pic05.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic05.jpg" alt=""> <figcaption class="">#05. 이렇게 멋지게 자랐어요! ^___^*</figcaption>
                     </figure>
+                    <div class="obj obj10"><img src="./resources/img/obj10.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box06">
                     <figure class="history__pic06">
-                        <img src="./resources/img/pic06.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic06.jpg" alt=""> <figcaption class="">#06. 도현이가 태어난지 벌써 100일~ 짝짝짝~~</figcaption>
                     </figure>
                 </div>
                 <div class="history__pic-box history__pic-box07">
                     <figure class="history__pic07">
-                        <img src="./resources/img/pic07.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic07.jpg" alt=""> <figcaption class="">#07. 손톱 발톱 자를 때는 도현이가 모르게 조심~ 조심~</figcaption>
                     </figure>
                 </div>
                 <div class="history__pic-box history__pic-box08">
                     <figure class="history__pic08">
-                        <img src="./resources/img/pic08.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic08.jpg" alt=""> <figcaption class="">#08. 처음 가본 문화센터가 낯설어요.</figcaption>
                     </figure>
+                    <div class="obj obj11"><img src="./resources/img/obj11.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box09">
                     <figure class="history__pic09">
-                        <img src="./resources/img/pic09.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic09.jpg" alt=""> <figcaption class="">#09. 건강하게 200일을 맞이한 도현이는,</figcaption>
                     </figure>
                 </div>
                 <div class="history__pic-box history__pic-box10">
                     <figure class="history__pic10">
-                        <img src="./resources/img/pic10.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic10.jpg" alt=""> <figcaption class="">#10. 햇빛 잡기를 좋아하고~</figcaption>
                     </figure>
+                    <div class="obj obj12"><img src="./resources/img/obj12.png" alt=""></div>
                 </div>
                 <div class="history__pic-box history__pic-box11">
                     <figure class="history__pic11">
-                        <img src="./resources/img/pic11.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic11.jpg" alt=""> <figcaption class="">#11. 어린이집도 잘 적응하고 있어요!</figcaption>
                     </figure>
                 </div>
                 <div class="history__pic-box history__pic-box12">
                     <figure class="history__pic12">
-                        <img src="./resources/img/pic12.jpg" alt=""> <figcaption class="">도현이가 태어났어요</figcaption>
+                        <img src="./resources/img/pic12.jpg" alt=""> <figcaption class="">#12. 도현아 지금처럼 건강하고 즐겁게 자라줘~ 사랑해!!</figcaption>
                     </figure>
+                    <div class="obj obj13"><img src="./resources/img/obj13.png" alt=""></div>
                 </div>
             </section>
         </main>
@@ -118,3 +137,15 @@
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+ 
+ 
+
