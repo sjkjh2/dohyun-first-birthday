@@ -39,7 +39,7 @@ ul, ol {list-style:none;}
 .coming__desc-list {margin-top:30px; font-size:34px;}
 .coming__desc-list li span {display:inline-block; position:relative; padding-left:15px;}
 .coming__desc-list li span::before {content:""; position:absolute; left:0; top:50%; width:5px; height:5px; background:#333; border-radius:100%; transform:translateY(-50%);}
-.coming__map {margin-top:30px; width:100%; height:600px;}
+.coming__map {margin-top:30px; width:100%; height:600px; border:1px solid #aaa;}
 
 .history__desc {margin-top:20px; font-size:36px; text-align:center;}
 .history__pic-box {position:relative; margin-top:50px;}
