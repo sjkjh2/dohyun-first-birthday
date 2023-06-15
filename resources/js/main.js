@@ -113,7 +113,7 @@ gsap.set(".coming__desc-list li:nth-child(1)", { yPercent: 1200});
 gsap.set(".coming__desc-list li:nth-child(2)", { yPercent: 1400});
 gsap.set(".coming__desc-list li:nth-child(3)", { yPercent: 1600});
 gsap.set(".coming__desc-list li:nth-child(4)", { yPercent: 1800});
-gsap.set(".coming__map", { yPercent: 500});
+gsap.set(".coming__map", { yPercent: 200});
 
 gsap.to(".coming", {
     yPercent: 0,
