@@ -56,7 +56,7 @@ ul, ol {list-style:none;}
 .history__pic-box09 {height:900px;}
 .history__pic-box10 {height:700px;}
 .history__pic-box11 {height:1000px;}
-.history__pic-box12 {height:1200px;}
+.history__pic-box12 {height:1070px;}
 .history__pic01 img {width:710px;}
 .history__pic02 img {width:530px;}
 .history__pic03 img {width:400px;}
@@ -69,6 +69,10 @@ ul, ol {list-style:none;}
 .history__pic10 img {width:580px;}
 .history__pic11 img {width:710px;}
 .history__pic12 img {width:600px;}
+
+.last {height:200px; margin-top:50px;}
+.last-txt {font-size:35px; text-align:center;}
+.last-txt__name {display:block; font-size:35px;}
 
 .obj {position:absolute;}
 .obj img {width:100%;}
@@ -85,6 +89,7 @@ ul, ol {list-style:none;}
 .obj11 {right:30px; top:340px; width:138px; height:270px;}
 .obj12 {left:0; top:0; width:185px; height:163px;}
 .obj13 {left:10px; top:450px; width:133px; height:258px;}
+.obj13.mo {display:none;}
 
 
 .footer {display:flex; height:70px; background:url(../img/footer_bg.jpg) repeat left top / 160px 160px; font-size:16px; text-align:center; align-items:center; justify-content:center;}
@@ -128,7 +133,7 @@ ul, ol {list-style:none;}
     .history__pic-box09 {height:104.6512vw;}
     .history__pic-box10 {height:81.3953vw;}
     .history__pic-box11 {height:116.2791vw;}
-    .history__pic-box12 {height:139.5349vw;}
+    .history__pic-box12 {height:124.4186vw;}
     .history__pic01 img {width:82.5581vw;}
     .history__pic02 img {width:61.6279vw;}
     .history__pic03 img {width:46.5116vw;}
@@ -142,6 +147,10 @@ ul, ol {list-style:none;}
     .history__pic11 img {width:82.5581vw;}
     .history__pic12 img {width:69.7674vw;}
 
+    .last {height:28.2558vw; margin-top:5.8140vw;}
+    .last-txt {font-size:4.0698vw;}
+    .last-txt__name {font-size:4.0698vw;}
+
     .obj01 {left:2.9070vw; top:-5.8140vw; width:31.1628vw; height:31.7442vw;}
     .obj02 {right:-2.3256vw; top:18.6047vw; width:20.1163vw; height:28.1395vw;}
     .obj03 {left:-4.6512vw; top:58.1395vw; width:36.9767vw; height:19.3023vw;}
@@ -154,7 +163,9 @@ ul, ol {list-style:none;}
     .obj10 {right:1.1628vw; top:46.5116vw; width:23.1395vw; height:21.7442vw;}
     .obj11 {right:3.4884vw; top:39.5349vw; width:16.0465vw; height:31.3953vw;}
     .obj12 {left:0; top:0; width:21.5116vw; height:18.9535vw;}
-    .obj13 {left:1.1628vw; top:52.3256vw; width:15.4651vw; height:30.0000vw;}
+    .obj13 {left:1.1628vw; top:52.3256vw; width:13.4651vw; height:28vw;}
+    .obj13 {display:none;}
+    .obj13.mo {display:block;}
 
     .footer {position:relative; z-index:10; height:8.1395vw; background-size:18.6047vw 18.6047vw; font-size:1.8605vw;}
 }
